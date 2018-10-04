@@ -1,0 +1,11 @@
+{
+  "short_name": "SunStats",
+  "name": "Local Sun Statistics",
+  "display": "fullscreen",
+"icons": [
+  {
+    "src": "./sunstats-icon-256.png",
+    "type": "image/png",
+    "sizes": "256x256"
+  }]
+}

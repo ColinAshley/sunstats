@@ -1,0 +1,74 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  min-width: 360px;
+  max-width:  580px;
+  margin:  auto;
+}
+
+button {
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin:  0;
+}
+
+#placeName {
+  font-size:  0.8em;
+  color: red;
+  height:  30px;
+  max-width: 75%;
+  margin:  20px auto auto auto;
+}
+
+.heading {
+  background-color: darkorange;
+  color: white;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+
+}
+
+.sunstats {
+  background-color:  #FFE97FFF;
+  margin:  10px auto 0 auto;
+  width:  75%;
+}
+
+.sunstats td {
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+
+ .sunstats th {
+  background-color: whitesmoke;
+  border: 1px solid white;
+  text-align: left
+ }
+
+.input {
+  list-style-type: none;
+  width: 100%;
+  clear: both;
+  padding-left: 0;
+  text-align: center;
+}
+
+.footer {
+  font-size:  10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+   body { margin: auto;
+          font-size: 1em;
+   }
+ }
+

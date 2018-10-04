@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="manifest" href="manifest.json">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <title>Sun Stats</title>
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="heading">
+    <h2>Sun Stats</h2>
+  </div>
+  <div>
+    <ul class="input">
+      <li>Lat: <input type="number" id="lat" value=""> N</li>
+      <li>Lng: <input type="number" id="long" value=""> E</li>
+      <li>Date: <input type="date" id="date" value=""></li>
+    </ul>
+  </div>
+  <div>
+    <button class="button" onclick="getLoc()">Get Current Location</button>
+  </div>
+  <div>
+    <button class="button" onclick="getData()">Get Data</button>
+  </div>
+  <div>
+    <p id="placeName">Click 'Get Location' to auto-fill</p>
+    <table class="sunstats">
+    </table>
+  </div>
+  <!--- Load JavaScript and initialise Google Maps API -->
+  <script type="text/javascript" src="js/main.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDFOYLwP7qcZh3bEvqWXXy7RwnmYmuFs6U">
+  </script>
+</body>
+<footer class="footer">
+</footer>
+</html>
