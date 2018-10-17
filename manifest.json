@@ -1,11 +1,29 @@
 {
   "short_name": "SunStats",
   "name": "Local Sun Statistics",
-  "display": "fullscreen",
-"icons": [
-  {
+  "description": "Location based sunrise/sunset details",
+  "display":"fullscreen",
+  "icons": [
+    {
+      "src": "./sunstats-icon-256.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
     "src": "./sunstats-icon-256.png",
     "type": "image/png",
     "sizes": "256x256"
-  }]
+    },
+    {
+    "src": "./sunstats-icon-256.png",
+    "type": "image/png",
+    "sizes": "512x512"
+    }
+  ],
+  "display": "standalone",
+  "start_url": ".",
+  "background_color": "darkorange",
+  "theme_color": "darkorange",
+  "prefer_related_applications": true,
+  "orientation": "portrait"
 }

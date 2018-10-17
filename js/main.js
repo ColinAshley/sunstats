@@ -81,6 +81,13 @@ function readLocalData() {
 }
 
 // main code
+// Register Service Worker
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sw.js');
+  });
+}
+
 document.getElementById('date').valueAsDate = new Date();
 
 // Get table ready
