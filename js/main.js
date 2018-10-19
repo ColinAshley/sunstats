@@ -22,7 +22,6 @@ function showData(data) {
       }
     }
   sunstats[0].innerHTML = sunlist;
-  footer[0].innerHTML = 'Data supplied by https://sunrise-sunset.org/';
   saveLocalData();
 }
 

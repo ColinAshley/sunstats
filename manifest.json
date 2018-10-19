@@ -22,8 +22,8 @@
   ],
   "display": "standalone",
   "start_url": ".",
-  "background_color": "darkorange",
-  "theme_color": "orange",
+  "background_color": "#ffbf00",
+  "theme_color": "#ffbf00",
   "prefer_related_applications": true,
   "orientation": "portrait"
 }
