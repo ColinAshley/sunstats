@@ -27,17 +27,14 @@
     <ul class="input">
       <li>Lat: <input type="number" id="lat" value=""> N</li>
       <li>Lng: <input type="number" id="long" value=""> E</li>
-      <li>Date: <input type="date" id="date" value=""></li>
+      <li>Date: <input type="date" id="date" value="" onchange="getData()"></li>
     </ul>
   </div>
   <div>
-    <button class="button" onclick="getLoc()">Get Current Location</button>
+    <button class="button" onclick="getLoc()">Update Location</button>
   </div>
   <div>
-    <button class="button" onclick="getData()">Get Data</button>
-  </div>
-  <div>
-    <p id="placeName">Click 'Get Location' to auto-fill</p>
+    <p id="placeName">Click 'Update Location' to reset currect location</p>
     <table class="sunstats">
     </table>
   </div>

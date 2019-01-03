@@ -39,6 +39,7 @@ function geoSuccess(pos) {
   let geolng = pos.coords.longitude;
   document.getElementById('long').value = geolng;
   getPlaceName(geolat, geolng);
+  getData();
 }
 
 function geoError(err) {
