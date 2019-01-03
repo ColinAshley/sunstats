@@ -1,4 +1,5 @@
 // functions
+
 function getData() {
   // Request data for entered location (default: Winnersh, Berkshire, UK)
   let lat = document.getElementById("lat").value;
